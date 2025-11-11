@@ -10,6 +10,7 @@ Data: 09/11/2025
 
 int line()
 {
+   setlocale(LC_ALL, "");
    for (int i = 0; i < 80; i++)
       putchar('=');
 

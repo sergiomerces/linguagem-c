@@ -21,6 +21,7 @@ int main()
             n++;
         }
     }
-    printf("\nCPF formatado = %s", cpf2);
+    printf("\nCPF formatado = %s\n", cpf2);
+    getchar();
     return 0;
 }

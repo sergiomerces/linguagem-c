@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char frase[101];
 
     printf("\nDigite uma frase: ");
@@ -8,5 +9,6 @@ int main(){
     fgets(frase, 101, stdin);
     printf("\nFrase digitada:\n%s\n\n", frase);
 
+    getchar();
     return 0;
 }

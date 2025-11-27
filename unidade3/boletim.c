@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define NUM_ALUNOS 3
 #define NUM_DISCIPLINAS 3
